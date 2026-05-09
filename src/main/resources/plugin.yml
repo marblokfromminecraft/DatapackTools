@@ -1,0 +1,9 @@
+name: DatapackTools
+version: '${version}'
+
+main: io.github.marblokfromminecraft.datapackTools.DatapackTools
+api-version: '1.21.11'
+load: POSTWORLD
+
+authors: [ marblok ]
+website: marblokfromminecraft.github.io
