@@ -1,14 +1,16 @@
 package io.github.marblokfromminecraft.datapackTools;
 
 import io.github.marblokfromminecraft.datapackTools.commands.Pathfind;
+import io.github.marblokfromminecraft.datapackTools.util.LoggerSettings;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class DatapackTools extends JavaPlugin {
-//todo: add setting to startup and test pathfind command, previous bug: /pathfind no argument = stacktrace;
     @Override
     public void onEnable() {
         // Plugin startup logic
         getCommand("pathfind").setExecutor(new Pathfind());
+
+        LoggerSettings.getInstance().load();
     }
 
     @Override
