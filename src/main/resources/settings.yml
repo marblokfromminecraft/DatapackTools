@@ -1,0 +1,3 @@
+Logsettings:
+    # Log level can be set to one of the following: ERRORS, IMPORTANT, ALL
+    LOG_MODE: IMPORTANT
