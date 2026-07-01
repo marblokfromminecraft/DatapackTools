@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class DatapackTools extends JavaPlugin {
     @Override
     public void onEnable() {
-        //todo: switch commands to brigadier api (bukkitcommand does not work in datapack)
+        //todo: switch commands to brigadier api not basiccommand
 
         // Plugin startup logic
         getCommand("pathfind").setExecutor(new Pathfind());
