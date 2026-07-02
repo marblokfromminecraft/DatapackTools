@@ -2,12 +2,8 @@ name: DatapackTools
 version: '${version}'
 
 main: io.github.marblokfromminecraft.datapackTools.DatapackTools
-api-version: '1.21.11'
+api-version: '26.1'
 load: POSTWORLD
 
 authors: [ marblok ]
 website: marblokfromminecraft.github.io
-commands:
-  pathfind:
-    description: "a command to make entities pathfind to a specific location"
-    usage: "/pathfind <x> <y> <z> <entity>"

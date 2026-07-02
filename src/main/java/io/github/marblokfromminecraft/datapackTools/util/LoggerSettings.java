@@ -34,6 +34,7 @@ public class LoggerSettings {
         }
 
         loggerMode = config.getString("Logsettings.LOG_MODE");
+        DatapackTools.getInstance().getLogger().info("Log mode currently set to " + loggerMode + "you can change this in the DatapackTools folder in your plugins folder");
 
     }
 
