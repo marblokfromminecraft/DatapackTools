@@ -1,0 +1,8 @@
+name: DatapackTools
+version: '${version}'
+main: io.github.marblokfromminecraft.datapackTools.DatapackTools
+bootstrapper: io.github.marblokfromminecraft.datapackTools.DatapackToolsBootstrap
+api-version: '26.1'
+authors:
+  - marblok
+website: marblokfromminecraft.github.io
