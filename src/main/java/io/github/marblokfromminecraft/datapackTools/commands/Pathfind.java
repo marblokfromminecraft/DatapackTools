@@ -22,6 +22,7 @@ public class Pathfind {
     public static void register(Commands dispatcher) {
         dispatcher.register(
             Commands.literal("pathfind")
+                    .requires(commandSourceStack -> commandSourceStack.getSender().isOp())
                 .then(Commands.argument("entities", ArgumentTypes.entities())
                     .then(Commands.argument("position", ArgumentTypes.finePosition(true))
                         .executes(Pathfind::execute)

@@ -16,6 +16,7 @@ public class RegisterCommand {
     public static void register(io.papermc.paper.command.brigadier.Commands dispatcher) {
         dispatcher.register(
                 Commands.literal("registerCommand")
+                        .requires(commandSourceStack -> commandSourceStack.getSender().isOp())
                         .then(Commands.argument("name", StringArgumentType.word())
                                 .then(Commands.argument("function", ArgumentTypes.namespacedKey())
                                 .executes(RegisterCommand::execute)
