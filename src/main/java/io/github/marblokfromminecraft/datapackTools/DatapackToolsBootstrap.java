@@ -13,5 +13,6 @@ public class DatapackToolsBootstrap implements PluginBootstrap {
         context.getLifecycleManager().registerEventHandler(LifecycleEvents.COMMANDS, event -> {
             Pathfind.register(event.registrar());
         });
+
     }
 }

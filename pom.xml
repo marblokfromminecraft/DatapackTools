@@ -6,7 +6,7 @@
 
     <groupId>io.github.marblokfromminecraft</groupId>
     <artifactId>DatapackTools</artifactId>
-    <version>0.0.4</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <name>DatapackTools</name>
